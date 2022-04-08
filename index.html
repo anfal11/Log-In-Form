@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Log In Form </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Log In Here</h1>
-    </div>
-
+    
+    <form action="login" class="box">
+    
+    <br><h1>Log In Here</h1> 
+    
     <div class="input_match">
-        <input type="text" placeholder="enter your username" required>
-        <input type="email" placeholder="enter your mail address" required>
-        <input type="password" placeholder="enter your password" required>
+        <input type="text" placeholder="enter your username" id="username" required>
+        <input type="email" placeholder="enter your mail address" id="email" required>
+        <input type="password" placeholder="enter your password" id="password" required>
         <button id="btn"> Submit </button>
     </div>
 
+    </form>
 </body>
 </html>
