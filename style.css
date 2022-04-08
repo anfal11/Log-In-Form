@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(book.jpg);
+    background-image: url(hill.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -21,6 +21,7 @@ form{
     margin-left: 750px;
     margin-top: 350px;
     border-radius: 20px;
+    box-shadow: 40px 40px 40px black;
 }
 
 div input{
@@ -48,4 +49,10 @@ div input#password{
     border-radius: 10px;
     outline: none;
     background: transparent;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(40, 40, 94);
+    transition: .5s;
 }
